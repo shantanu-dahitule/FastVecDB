@@ -1,0 +1,28 @@
+[project]
+name = "fastvecdb"
+version = "1.0.0"
+description = "Pure-Python vector search and retrieval framework with intelligent caching and zero dependencies"
+authors = [
+    {name = "Shantanu-Dahitule"}
+]
+readme = "README.md"
+requires-python = ">=3.10, <4.0"
+dependencies = []
+keywords = ["vector-database", "similarity-search", "embeddings", "rag", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools]
+packages = ["fastvecdb", "fastvecdb.core", "fastvecdb.cache", "fastvecdb.index"]
