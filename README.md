@@ -1,0 +1,2 @@
+# FastVecDB
+Welcome to FastVecDB
