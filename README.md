@@ -60,21 +60,11 @@ It does not attempt to compete on brute-force vector math speed with FAISS or GP
 
 ## 🏗 Architecture Overview
 
-```
-Application
-    |
-FastVecDB API
-    |
-Query Router
-    |
-Multi-Layer Cache
-    |        \
-Vector Buckets   Result Cache
-    |
-Pure-Python Similarity Engine
-    |
-Persistent Storage (SQLite / mmap / pickle)
-```
+<img src = "./images/Architecture.png" width="50%"/>
+
+## 🏗 System Design Overview
+
+<img src = "./images/System Design.png" width="50%"/>
 
 ## 🔍 Supported Similarity Metrics
 
@@ -362,4 +352,5 @@ Commercial-friendly license (check LICENSE file for details).
 FastVecDB delivers production-ready vector search without the operational overhead of traditional vector databases, offering enterprise-grade features and persistent storage in a fully open-source library.
 
 ---
+
 
